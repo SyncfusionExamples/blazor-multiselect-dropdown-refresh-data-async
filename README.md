@@ -1,0 +1,2 @@
+# blazor_multiselect_dropdown_refresh_data_async
+Perform RefreshDataAsync method operation in OData Adaptor
