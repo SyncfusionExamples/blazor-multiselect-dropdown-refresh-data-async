@@ -1,18 +1,20 @@
 # Blazor MultiSelect dropdown refresh data async
 
-This sample explains how to perform RefreshDataAsync method operation in OData Adaptor, WebApi Adaptor and Custom Adaptors in MultiSelect component. 
+This sample explains how to perform RefreshDataAsync method operation in OData Adaptor, WebApi Adaptor and Custom Adaptors in MultiSelect component.
 
  * ODataAdaptor.razor page explains how to perform `RefreshDataAsync` method in ODataAdaptor.
  * WebApiAdaptor.razor page explains how to perform `RefreshDataAsync` method in WebApiAdaptor.
  * UrlAdaptor.razor page explains how to perform `RefreshDataAsync` method in UrlAdaptor.
+
  ## Prerequisites
 
-* Visual Studio 2022
+* Visual Studio 2022 (or latest)
+* .NET 10.0 SDK
 
 ## How to run the project
 
 * Checkout this project to a location in your disk.
-* Open the solution file using the Visual Studio 2022.
+* Open the solution file using the Visual Studio 2022 (or latest).
 * Restore the NuGet packages by rebuilding the solution.
 * Run the project.
 
