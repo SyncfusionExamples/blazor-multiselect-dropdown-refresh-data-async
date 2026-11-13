@@ -1,9 +1,8 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 18
-VisualStudioVersion = 18.0.0.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefreshDataAsyncSample", "RefreshDataAsyncSample.csproj", "{1D009113-6FC7-43E1-9C27-5E07DE637EF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefreshDataAsyncSample", "RefreshDataAsyncSample.csproj", "{1D009113-6FC7-43E1-9C27-5E07DE637EF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D009113-6FC7-43E1-9C27-5E07DE637EF3}
 	EndGlobalSection
 EndGlobal

@@ -7,8 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-builder.Services.AddControllers();
 
+builder.Services.AddControllers();
 builder.Services.AddSyncfusionBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
 builder.Services.AddSingleton<OrderDataAccessLayer>();
@@ -28,10 +28,9 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
-app.UseStaticFiles();
 app.UseAntiforgery();
 
+app.MapStaticAssets();
 app.MapDefaultControllerRoute();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
